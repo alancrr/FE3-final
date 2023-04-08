@@ -11,7 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-.favButton{
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.favButton, button, .removeButton{
   background-color: rgba(136, 136, 136, 0.116);
   padding: 10px;
   border: none;
